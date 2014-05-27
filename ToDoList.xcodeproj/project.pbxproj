@@ -19,6 +19,7 @@
 		74B0A4C51934A9F500FF45EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74B0A4AD1934A9F400FF45EB /* UIKit.framework */; };
 		74B0A4CD1934A9F500FF45EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74B0A4CB1934A9F500FF45EB /* InfoPlist.strings */; };
 		74B0A4CF1934A9F500FF45EB /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B0A4CE1934A9F500FF45EB /* ToDoListTests.m */; };
+		74B0A4D91934BE3600FF45EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B0A4D81934BE3600FF45EB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		74B0A4CA1934A9F500FF45EB /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		74B0A4CC1934A9F500FF45EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74B0A4CE1934A9F500FF45EB /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		74B0A4D81934BE3600FF45EB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				74B0A4B81934A9F400FF45EB /* XYZAppDelegate.h */,
 				74B0A4B91934A9F400FF45EB /* XYZAppDelegate.m */,
+				74B0A4D81934BE3600FF45EB /* Main.storyboard */,
 				74B0A4BB1934A9F500FF45EB /* Images.xcassets */,
 				74B0A4B01934A9F400FF45EB /* Supporting Files */,
 			);
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B0A4D91934BE3600FF45EB /* Main.storyboard in Resources */,
 				74B0A4B41934A9F400FF45EB /* InfoPlist.strings in Resources */,
 				74B0A4BC1934A9F500FF45EB /* Images.xcassets in Resources */,
 			);
